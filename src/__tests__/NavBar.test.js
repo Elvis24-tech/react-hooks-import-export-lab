@@ -1,6 +1,4 @@
-import "@testing-library/jest-dom";
-import { render } from "@testing-library/react";
-import NavBar from "../components/NavBar";
+import NavBar from './NavBar';  
 
 test("it is exported as a default export", () => {
   try {
